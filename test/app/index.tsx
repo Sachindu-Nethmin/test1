@@ -1,12 +1,8 @@
-import type { NextPage } from 'next'
-
-const Home: NextPage = () => {
+export default function Home() {
   return (
-    <div>
-      <h1>Welcome to My Static Site</h1>
-      <p>This is a static page generated with Next.js</p>
-    </div>
+    <main>
+      <h1>Welcome</h1>
+      <p>Static site with Next.js</p>
+    </main>
   )
 }
-
-export default Home
